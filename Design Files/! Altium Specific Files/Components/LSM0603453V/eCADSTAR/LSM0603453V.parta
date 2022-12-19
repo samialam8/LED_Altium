@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1412985"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-01-07:09:15)
+    (utime 2019-07-31-11:30:55)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "LSM0603453V")
+)
+
+
+(pinAssign "ECS_1412985"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-01-07:09:15)
+    (utime 2019-07-31-11:30:55)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1412985")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "LSM0603453V")
+)
+
+
+(part "LSM0603453V"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-01-07:09:15)
+    (utime 2019-07-31-11:30:55)
+    (packageRef "LSM0603453V")
+    (pinAssignRef "ECS_1412985")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "Standard LEDs - SMD SMD 0603 3V 1000mcd GREEN")
+    (property "Mouser_Part_Number" "593-LSM0603453V")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/VCC/LSM0603453V?qs=%252BEew9%252B0nqrBOKWP8d%2FyQXQ%3D%3D")
+    (property "Manufacturer_Name" "Visual Communications Company")
+    (property "Manufacturer_Part_Number" "LSM0603453V")
+    (property "Datasheet_Link" "https://vcclite.com/wp-content/uploads/wpallimport/files/files/LSM0603453V.pdf")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

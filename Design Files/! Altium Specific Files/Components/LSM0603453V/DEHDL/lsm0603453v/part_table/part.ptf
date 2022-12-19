@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LSM0603453V'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Visual Communications Company", "LSM0603453V" (!) = "", "LEDC1608X55N", "LEDs Chip", "593-LSM0603453V", "https://www.mouser.co.uk/ProductDetail/VCC/LSM0603453V?qs=%252BEew9%252B0nqrBOKWP8d%2FyQXQ%3D%3D", "Standard LEDs - SMD SMD 0603 3V 1000mcd GREEN", "https://vcclite.com/wp-content/uploads/wpallimport/files/files/LSM0603453V.pdf", "0.55 mm"
+END_PART
+
+END.
