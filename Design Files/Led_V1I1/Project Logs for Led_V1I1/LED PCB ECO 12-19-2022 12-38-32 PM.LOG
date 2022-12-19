@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=R1 Old Footprint=FP-AC0805-IPC_A New Footprint=R0805
+Change Component Footprint: Designator=R2 Old Footprint=FP-AC0805-IPC_A New Footprint=R0805
+Change Component Footprint: Designator=D1 Old Footprint=LED0603 New Footprint=LED0603Green
+Change Component Footprint: Designator=D2 Old Footprint=LED0603 New Footprint=LED0603Green
+Change Component Footprint: Designator=J1 Old Footprint=MOLX-22-27-2021_V New Footprint=HDR1x2

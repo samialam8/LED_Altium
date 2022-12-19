@@ -1,9 +1,0 @@
-Manufacturer=Visual Communications Company
-PartNumber=LSM0603453V
-PartCategory=LED
-PackageCategory=LEDs Chip
-PinCount=2
-Version=2.1
-Released=2019-02-01 07:09:15
-Downloaded=2022-12-19 14:32:36
-3D=N
